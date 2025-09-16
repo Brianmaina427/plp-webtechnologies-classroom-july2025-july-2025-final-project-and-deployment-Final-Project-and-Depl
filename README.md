@@ -2,7 +2,7 @@ Portfolio Website - Developer Portfolio
 A Responsive, Dark-Themed Technical Portfolio Showcasing Skills, Projects, and Certifications
 
 Live Demo
-🔗 Live URL: https://brianmaina.netlify.app/
+🔗 Live URL:[ https://brianmaina.netlify.app/](https://brianmachariaportfolio.netlify.app/)
 
 ✨ Key Features
 ✅ Modern UI/UX
