@@ -1,90 +1,94 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+Portfolio Website - Developer Portfolio
+A Responsive, Dark-Themed Technical Portfolio Showcasing Skills, Projects, and Certifications
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+Live Demo
+🔗 Live URL: https://brianmaina.netlify.app/
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+✨ Key Features
+✅ Modern UI/UX
 
----
+Dark circuit board theme with animated orange accents
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+Fully responsive (mobile, tablet, desktop)
 
-Before you write any code, take time to plan:
+CSS-only animations (no JavaScript dependency)
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+✅ Professional Sections
 
-**Goal:** Show intentional structure and user journey across the site.
+Skills Matrix: Visual showcase of technical proficiencies
 
----
+Education Timeline: Interactive JKUAT/High School timeline
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+Project Gallery: Case studies with live demos
 
-Using your plan, begin building:
+Certifications: Cisco credential display with lightbox
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+Contact Form: Netlify-powered submissions
 
-Each page should:
+✅ Technical Highlights
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+Pure HTML/CSS (zero JavaScript)
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+Semantic HTML5 markup
 
----
+CSS Grid/Flexbox layout
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+Dynamic hover/scroll effects
 
-Before deployment, refactor your project to follow production-friendly practices:
+🛠 Tech Stack
+Category	Technologies Used
+Frontend	HTML5, CSS3
+Design	CSS Grid, Flexbox
+Icons	Font Awesome 6
+Fonts	Google Fonts
+Hosting	Netlify
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+📂 Project Structure
+portfolio/
+├── index.html            # Main entry point
+│   └── images/           # Optimized assets
+│       ├── profile/      # Portrait shots
+│       ├── projects/     # Project screenshots
+│       └── certs/        # Certification scans
+└── README.md             # This documentation
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+🚀 Deployment Guide
+1. Local Development
+# Clone repository
+git clone https://github.com/Brianmaina427/My_Portfolio_Website.git
+cd portfolio
 
----
+# Run local server (Python)
+python3 -m http.server 8000
+# Access at http://localhost:8000
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+2. Netlify Deployment
+Push to GitHub/GitLab
+Connect repo to Netlify
+Set build command: None (static site)
+Set publish directory: /
 
-Once your project is complete, choose a method to **host your site online**.
+🎨 Customization Guide
+1. Personalize Content
+Replace placeholder text in index.html:
+2. Add Projects
+Add images to assets/images/projects/
+3. Modify Styling
+Edit CSS variables in :root:
+:root {
+  --primary: #ff7b00;  /* Brand color */
+  --dark: #0a0a0a;     /* Background */
+  --circuit: #1a1a1a;  /* Circuit pattern */
+}
+🔧 Troubleshooting
+Issue	Solution
+Images not loading	Verify case-sensitive paths in HTML
+Form not submitting	Add netlify attribute to <form>
+Mobile layout breaks	Check viewport meta tag
 
-You can use:
+📬 Contact
+Email: brianmaina427@gmail.com
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+LinkedIn: https://www.linkedin.com/in/brian-maina-b17a642ab/
 
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+GitHub: https://github.com/Brianmaina427<p>
